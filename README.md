@@ -37,9 +37,9 @@ chmod +x ~/.config/hypr/scripts/omen-fan.py
 Добавь в конфиг `~/.config/hypr/keybindings.conf`:
 
 ```ini
-bind = SUPER, F11, exec, ~/.config/hypr/scripts/mode_switch.sh max
-bind = SUPER, F10, exec, ~/.config/hypr/scripts/mode_switch.sh balanced
-bind = SUPER, F9, exec, ~/.config/hypr/scripts/mode_switch.sh powersave
+bind = $mainMod+Alt, C, exec, ~/.config/hypr/mode_switch.sh max
+bind = $mainMod+Alt, X, exec, ~/.config/hypr/mode_switch.sh balanced
+bind = $mainMod+Alt, Z, exec, ~/.config/hypr/mode_switch.sh powersave
 ```
 
 Перезагрузить конфиг:
